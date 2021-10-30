@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BigChungus/bigboy.tscn" type="PackedScene" id=1]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 2
+emission_box_extents = Vector3( 500, 500, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 0, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 2.88
+
+[node name="Node2D" type="Node2D"]
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 184, 125.5 )
+
+[node name="Particles2D2" type="Particles2D" parent="KinematicBody2D"]
+amount = 512
+lifetime = 9.63
+local_coords = false
+process_material = SubResource( 1 )

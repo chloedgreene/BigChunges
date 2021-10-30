@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ANNOYING.mp3-388c0cd412d9f43750bb9560d621ab93.mp3str"
+
+[deps]
+
+source_file="res://Resources/ANNOYING.mp3"
+dest_files=[ "res://.import/ANNOYING.mp3-388c0cd412d9f43750bb9560d621ab93.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
